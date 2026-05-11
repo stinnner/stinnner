@@ -24,7 +24,6 @@
   <rect class="accent" x="36" y="32" width="12" height="12"/>
   <rect class="amber" x="58" y="32" width="12" height="12"/>
   <rect class="pixel" x="80" y="32" width="12" height="12"/>
-  <text class="label" x="36" y="190">boot: data_room/profile/readme.md</text>
 
   <g transform="translate(74 70) scale(4)">
     <path class="pixel" d="M0 0h2v3h3V0h2v7H5V5H2v2H0z M10 0h6v2h-4v1h3v2h-3v1h4v1h-6z M19 0h2v5h4v2h-6z M28 0h2v5h4v2h-6z M40 0h4v1h1v1h1v3h-1v1h-1v1h-4V6h-1V5h-1V2h1V1h1z M41 2v3h3V2z M57 0h2v4h1V1h2v3h1V0h2v7h-2V6h-1V5h-2v1h-1v1h-2z M71 0h4v1h1v1h1v3h-1v1h-1v1h-4V6h-1V5h-1V2h1V1h1z M72 2v3h3V2z M82 0h5v1h1v2h-1v1h-1v1h1v2h-2V6h-1V5h-1v2h-2z M84 2v1h2V2z M92 0h2v5h4v2h-6z M101 0h4v1h1v1h1v3h-1v1h-1v1h-4z M103 2v3h2V2z"/>
