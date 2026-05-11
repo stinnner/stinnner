@@ -60,6 +60,4 @@
   <g class="pulse2"><circle class="node" cx="748" cy="128" r="29"/><text class="num" x="748" y="129">13</text></g>
   <g><circle class="nodeGreen" cx="742" cy="224" r="25"/><text class="num" x="742" y="225">ML</text></g>
   <g><circle class="nodeGold" cx="220" cy="236" r="22"/><text class="num" x="220" y="237">Σ</text></g>
-
-  <text class="tiny" x="48" y="258">big data is not loud. it is connected.</text>
 </svg>
