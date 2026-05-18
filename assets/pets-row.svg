@@ -1,40 +1,84 @@
-<svg width="420" height="92" viewBox="0 0 420 92" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="pixel cats and dogs">
+<svg width="620" height="112" viewBox="0 0 620 112" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="pixel cats and dogs walking around">
   <defs>
     <style>
       .ink { fill: #1f2933; }
       .teal { fill: #2f7f72; }
       .amber { fill: #c9852b; }
       .cream { fill: #fbfaf5; }
+      .ground { stroke: #ebe4d4; stroke-width: 4; stroke-linecap: square; }
+      .pet { transform-box: fill-box; transform-origin: center; }
+      .bob-a { animation: bob-a .72s steps(2, end) infinite; }
+      .bob-b { animation: bob-b .88s steps(2, end) infinite; }
+      .bob-c { animation: bob-c .68s steps(2, end) infinite; }
+      .bob-d { animation: bob-d .94s steps(2, end) infinite; }
+      @keyframes bob-a { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+      @keyframes bob-b { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+      @keyframes bob-c { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      @keyframes bob-d { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
     </style>
   </defs>
 
-  <g transform="translate(18 18)">
-    <path class="ink" d="M10 16h6v-6h6v6h12v-6h6v6h6v26h-6v8H16v-8h-6z"/>
-    <rect class="cream" x="18" y="24" width="4" height="4"/>
-    <rect class="cream" x="34" y="24" width="4" height="4"/>
-    <rect class="teal" x="24" y="34" width="8" height="4"/>
+  <line class="ground" x1="34" y1="94" x2="586" y2="94"/>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="18 18; 88 18; 88 18; 182 18; 182 18; 54 18; 54 18; 18 18"
+      keyTimes="0; .17; .27; .46; .58; .78; .9; 1"
+      dur="13.2s" repeatCount="indefinite"/>
+    <g class="pet bob-a">
+      <path class="ink" d="M10 16h6v-6h6v6h12v-6h6v6h6v26h-6v8H16v-8h-6z"/>
+      <rect class="cream" x="18" y="24" width="4" height="4"/>
+      <rect class="cream" x="34" y="24" width="4" height="4"/>
+      <rect class="teal" x="24" y="34" width="8" height="4"/>
+      <rect class="ink" x="18" y="50" width="4" height="8"/>
+      <rect class="ink" x="34" y="50" width="4" height="8"/>
+    </g>
   </g>
 
-  <g transform="translate(108 18)">
-    <path class="teal" d="M10 20h6v-8h8v8h12v-8h8v8h6v22h-6v8H16v-8h-6z"/>
-    <rect class="cream" x="18" y="28" width="4" height="4"/>
-    <rect class="cream" x="38" y="28" width="4" height="4"/>
-    <rect class="ink" x="26" y="38" width="10" height="4"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="176 20; 264 20; 264 20; 224 20; 224 20; 342 20; 342 20; 176 20"
+      keyTimes="0; .2; .31; .43; .52; .74; .86; 1"
+      dur="15.8s" begin="-4.1s" repeatCount="indefinite"/>
+    <g class="pet bob-b">
+      <path class="teal" d="M10 20h6v-8h8v8h12v-8h8v8h6v22h-6v8H16v-8h-6z"/>
+      <rect class="cream" x="18" y="28" width="4" height="4"/>
+      <rect class="cream" x="38" y="28" width="4" height="4"/>
+      <rect class="ink" x="26" y="38" width="10" height="4"/>
+      <rect class="teal" x="18" y="50" width="4" height="8"/>
+      <rect class="teal" x="38" y="50" width="4" height="8"/>
+    </g>
   </g>
 
-  <g transform="translate(210 18)">
-    <path class="amber" d="M8 20h8v-8h8v8h10v-8h8v8h8v20h-6v10H14V40H8z"/>
-    <rect class="cream" x="18" y="28" width="4" height="4"/>
-    <rect class="cream" x="36" y="28" width="4" height="4"/>
-    <rect class="ink" x="24" y="38" width="10" height="4"/>
-    <rect class="ink" x="28" y="42" width="4" height="4"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="332 20; 432 20; 432 20; 382 20; 382 20; 520 20; 520 20; 332 20"
+      keyTimes="0; .16; .25; .39; .49; .72; .84; 1"
+      dur="14.4s" begin="-7.3s" repeatCount="indefinite"/>
+    <g class="pet bob-c">
+      <path class="amber" d="M8 20h8v-8h8v8h10v-8h8v8h8v20h-6v10H14V40H8z"/>
+      <rect class="cream" x="18" y="28" width="4" height="4"/>
+      <rect class="cream" x="36" y="28" width="4" height="4"/>
+      <rect class="ink" x="24" y="38" width="10" height="4"/>
+      <rect class="ink" x="28" y="42" width="4" height="4"/>
+      <rect class="amber" x="18" y="50" width="4" height="8"/>
+      <rect class="amber" x="36" y="50" width="4" height="8"/>
+    </g>
   </g>
 
-  <g transform="translate(314 18)">
-    <path class="ink" d="M8 24h6v-8h8v8h18v-8h8v8h6v18h-6v8H14v-8H8z"/>
-    <rect class="cream" x="18" y="30" width="4" height="4"/>
-    <rect class="cream" x="40" y="30" width="4" height="4"/>
-    <rect class="amber" x="26" y="38" width="10" height="4"/>
-    <rect class="amber" x="30" y="42" width="4" height="4"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="470 24; 560 24; 560 24; 496 24; 496 24; 404 24; 404 24; 470 24"
+      keyTimes="0; .18; .3; .44; .53; .75; .88; 1"
+      dur="16.6s" begin="-10.6s" repeatCount="indefinite"/>
+    <g class="pet bob-d">
+      <path class="ink" d="M8 24h6v-8h8v8h18v-8h8v8h6v18h-6v8H14v-8H8z"/>
+      <rect class="cream" x="18" y="30" width="4" height="4"/>
+      <rect class="cream" x="40" y="30" width="4" height="4"/>
+      <rect class="amber" x="26" y="38" width="10" height="4"/>
+      <rect class="amber" x="30" y="42" width="4" height="4"/>
+      <rect class="ink" x="18" y="50" width="4" height="8"/>
+      <rect class="ink" x="40" y="50" width="4" height="8"/>
+    </g>
   </g>
 </svg>
